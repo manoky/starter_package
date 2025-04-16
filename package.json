@@ -1,0 +1,45 @@
+{
+  "name": "@manoky/starter-package",
+  "version": "1.0.3",
+  "description": "A starter package for Node.js projects",
+  "main": "./lib/index.cjs",
+  "types": "./lib/index.d.ts",
+  "exports": {
+    "import": {
+      "default": "./lib/index.esm.js",
+      "types": "./lib/types/index.d.ts"
+    },
+    "require": {
+      "default": "./lib/index.cjs",
+      "types": "./lib/types/index.d.ts"
+    }
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "release-package": "npm run build && changeset publish",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manoky/starter_package.git"
+  },
+  "keywords": [],
+  "author": "manoky",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/manoky/starter_package/issues"
+  },
+  "homepage": "https://github.com/manoky/starter_package#readme",
+  "devDependencies": {
+    "@changesets/cli": "^2.29.1",
+    "prettier": "^3.5.3",
+    "rollup": "^4.22.4",
+    "rollup-plugin-delete": "^2.0.0",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "typescript": "^5.4.5"
+  }
+}
