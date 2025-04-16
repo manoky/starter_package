@@ -1,1 +1,1 @@
-export const afternoonGreet = (name: string): string => `Good afternoon, ${name}!`;
+export const afternoonGreet = (name: string): string => `Have a great afternoon, ${name}!`;
