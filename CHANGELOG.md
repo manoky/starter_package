@@ -1,5 +1,11 @@
 # @manoky/starter-package
 
+## 2.0.0-alpha.0
+
+### Major Changes
+
+- 8c15f90: Added monarch cats to morning greet
+
 ## 1.2.0
 
 ### Minor Changes
