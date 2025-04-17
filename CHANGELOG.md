@@ -1,5 +1,15 @@
 # @manoky/starter-package
 
+## 2.0.0
+
+### Major Changes
+
+- 8c15f90: Added monarch cats to morning greet
+
+### Patch Changes
+
+- 8c63d9a: Added Grumpy to monarch cats
+
 ## 2.0.0-alpha.1
 
 ### Patch Changes
@@ -17,7 +27,6 @@
 ### Patch Changes
 
 - 110aeac: Change the text for night greet method
-
 
 ## 1.2.0
 
