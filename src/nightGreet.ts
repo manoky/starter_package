@@ -1,1 +1,1 @@
-export const nightGreet = (name: string): string => `Good night, ${name}!`;
+export const nightGreet = (name: string): string => `Have a wonderful night, ${name}!`;
