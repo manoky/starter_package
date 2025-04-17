@@ -12,6 +12,13 @@
 
 - 8c15f90: Added monarch cats to morning greet
 
+## 1.2.1
+
+### Patch Changes
+
+- 110aeac: Change the text for night greet method
+
+
 ## 1.2.0
 
 ### Minor Changes
