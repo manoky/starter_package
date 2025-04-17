@@ -4,5 +4,7 @@
   "initialVersions": {
     "@manoky/starter-package": "1.2.0"
   },
-  "changesets": []
+  "changesets": [
+    "dull-states-kick"
+  ]
 }
