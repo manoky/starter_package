@@ -1,6 +1,6 @@
 {
   "name": "@manoky/starter-package",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "A starter package for Node.js projects",
   "main": "./lib/index.cjs",
   "types": "./lib/index.d.ts",
