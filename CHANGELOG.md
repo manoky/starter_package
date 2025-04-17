@@ -1,5 +1,11 @@
 # @manoky/starter-package
 
+## 2.0.0-alpha.1
+
+### Patch Changes
+
+- 8c63d9a: Added Grumpy to monarch cats
+
 ## 2.0.0-alpha.0
 
 ### Major Changes
