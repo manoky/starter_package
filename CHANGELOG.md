@@ -1,5 +1,11 @@
 # @manoky/starter-package
 
+## 3.0.3
+
+### Patch Changes
+
+- 48eacdd: Fix tsc compiler error (update target)
+
 ## 3.0.2
 
 ### Patch Changes
