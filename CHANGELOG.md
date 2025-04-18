@@ -1,5 +1,11 @@
 # @manoky/starter-package
 
+## 3.0.4
+
+### Patch Changes
+
+- 0473a5e: Fix types path
+
 ## 3.0.3
 
 ### Patch Changes
