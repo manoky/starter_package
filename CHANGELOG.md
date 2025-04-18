@@ -1,5 +1,11 @@
 # @manoky/starter-package
 
+## 3.0.0
+
+### Major Changes
+
+- 078b53f: Add CustomButton and CustomTextField components
+
 ## 2.0.0
 
 ### Major Changes
