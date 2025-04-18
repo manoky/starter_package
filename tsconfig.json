@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "declaration": true,
+    "target": "ES6",
     "declarationDir": "lib/types",
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
