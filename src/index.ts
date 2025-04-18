@@ -2,3 +2,5 @@ export { morningGreet } from "./morningGreet";
 export { eveningGreet } from "./eveningGreet";
 export { afternoonGreet } from "./afternoonGreet";
 export { nightGreet } from "./nightGreet";
+export { CustomTextField } from './components/CustomTextField';
+export { CustomButton } from './components/CustomButton';
