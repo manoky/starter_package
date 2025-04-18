@@ -3,7 +3,9 @@
     "declaration": true,
     "declarationDir": "lib/types",
     "target": "ES6",
-    "moduleResolution": "node"
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react"
   },
     "include": ["src/**/*"],
   "exclude": ["node_modules", "lib"]
