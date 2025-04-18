@@ -7,11 +7,11 @@
   "exports": {
     "import": {
       "default": "./lib/esm/index.js",
-      "types": "./lib/esm/types/index.d.ts"
+      "types": "./lib/types/index.d.ts"
     },
     "require": {
       "default": "./lib/cjs/index.js",
-      "types": "./lib/cjs/types/index.d.ts"
+      "types": "./lib/types/index.d.ts"
     }
   },
   "files": [
