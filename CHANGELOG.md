@@ -1,5 +1,11 @@
 # @manoky/starter-package
 
+## 3.0.2
+
+### Patch Changes
+
+- c0458cb: Fix tsconfig error
+
 ## 3.0.1
 
 ### Patch Changes
