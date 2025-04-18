@@ -2,11 +2,11 @@
   "compilerOptions": {
     "declaration": true,
     "declarationDir": "lib/types",
-    "target": "ES6",
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
     "jsx": "react"
   },
-    "include": ["src/**/*"],
+  "skipLibCheck": true,
+  "include": ["src/**/*"],
   "exclude": ["node_modules", "lib"]
 }

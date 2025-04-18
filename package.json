@@ -2,23 +2,23 @@
   "name": "@manoky/starter-package",
   "version": "3.0.0",
   "description": "A starter package for Node.js projects",
-  "main": "./lib/index.cjs",
+  "main": "./lib/cjs/index.js",
   "types": "./lib/index.d.ts",
   "exports": {
     "import": {
-      "default": "./lib/index.esm.js",
-      "types": "./lib/types/index.d.ts"
+      "default": "./lib/esm/index.js",
+      "types": "./lib/esm/types/index.d.ts"
     },
     "require": {
-      "default": "./lib/index.cjs",
-      "types": "./lib/types/index.d.ts"
+      "default": "./lib/cjs/index.js",
+      "types": "./lib/cjs/types/index.d.ts"
     }
   },
   "files": [
     "lib"
   ],
   "scripts": {
-    "build": "rollup -c --bundleConfigAsCjs",
+    "build": "rimraf ./lib && tsc --project tsconfig.cjs.json && tsc --project tsconfig.esm.json",
     "release-package": "npm run build && changeset publish",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -30,6 +30,7 @@
   "author": "manoky",
   "license": "ISC",
   "type": "module",
+  "sideEffects": false,
   "bugs": {
     "url": "https://github.com/manoky/starter_package/issues"
   },
@@ -37,11 +38,7 @@
   "devDependencies": {
     "@changesets/cli": "^2.29.1",
     "prettier": "^3.5.3",
-    "rollup": "^4.22.4",
-    "rollup-plugin-delete": "^2.0.0",
-    "rollup-plugin-typescript2": "^0.36.0",
-    "@rollup/plugin-commonjs": "^25.0.7",
-    "@rollup/plugin-node-resolve": "^15.2.3",
+    "rimraf": "^6.0.1",
     "typescript": "^5.4.5"
   },
   "peerDependencies": {
