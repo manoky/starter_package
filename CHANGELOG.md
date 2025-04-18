@@ -1,5 +1,11 @@
 # @manoky/starter-package
 
+## 3.0.1
+
+### Patch Changes
+
+- a3000c9: Change rollup to tsc compiler for building lib
+
 ## 3.0.0
 
 ### Major Changes
